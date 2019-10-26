@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            @font-face {
+                font-family: "Nunito";
+                src: url('./Nunito-Regular.ttf');
+            }
+            * {
+                padding: 0;
+                margin: 0;
+            }
+            input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer-spin-button { 
+                -webkit-appearance: none; 
+                margin: 0; 
+            }
+            body {
+                width: 700px;
+                background: linear-gradient(to right, #1E6AFFFF, #BE26FFFF);
+                font-family: "Nunito";
+            }
+            #global {
+                margin: 2em 0em;
+                color: #FFF;
+            }
+            #inputs {
+                display: inline-flex;
+                left: 50%;
+                right: 50%;
+                transform: translate(15%);
+            }
+            #inputs > p {
+                font-size: 4em;
+                line-height: 0.9em;
+            }
+            input[type="number"] {
+                background: #FFF;
+                border: 0px;
+                border-radius: 0.2em;
+                font-size: 4em;
+                text-align: center;
+                width: 30%;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="global" align="center"></div>
+        <script src="index.js"></script>
+    </body>
+</html>

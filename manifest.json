@@ -1,0 +1,34 @@
+{
+    "manifest_version": 2,
+    "name": "__MSG_extName__",
+    "version": "1.0",
+    "author": "Nguyen Xuan Phu",
+    "icons": {
+		"16": "icons8-clock-512-01.png",
+		"48": "icons8-clock-512-01.png",
+		"128": "icons8-clock-512-01.png"
+    },
+    "browser_action": {
+        "default_icon": {
+			"16": "icons8-clock-512-01.png",
+			"24": "icons8-clock-512-01.png",
+			"32": "icons8-clock-512-01.png"
+        },
+        "default_popup": "index.html",
+        "default_title": "__MSG_extName__"
+    },
+    "background": {
+        "scripts": ["background.js"],
+        "persistence": false
+    },
+    "default_locale": "en",
+    "permissions": [
+        "tabs",
+        "notifications",
+        "storage",
+        "webRequest",
+        "webRequestBlocking",
+        "*://*.facebook.com/*",
+        "*://*.fbcdn.net/*"
+    ]
+}

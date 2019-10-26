@@ -1,0 +1,17 @@
+{
+    "blockMessage": {
+        "message": "The timer timed out."
+    },
+    "extName": {
+        "message": "Time Limiter for Facebook"
+    },
+    "title": {
+        "message": "How long do ya want to use Facebook per day?"
+    },
+    "note1": {
+        "message": "Note: 11:59 is the limit of use time per day."
+    },
+    "note2": {
+        "message": "Note 2: If timer set to 0:0 -> Free to use."
+    }
+}

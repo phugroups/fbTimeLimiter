@@ -1,0 +1,17 @@
+{
+    "blockMessage": {
+        "message": "Thời gian dùng Facbook của thím đã hết :3"
+    },
+    "extName": {
+        "message": "Giới hạn thời gian dùng Facebook"
+    },
+    "title": {
+        "message": "Thím muốn dùng Facebook bao lâu mỗi ngày?"
+    },
+    "note1": {
+        "message": "Note: 11:59 là thời gian lớn nhất có thể giới hạn."
+    },
+    "note2": {
+        "message": "Note 2: Nếu đồng hồ cài về 0:0 => Dùng Facebook thoải mái."
+    }
+}
